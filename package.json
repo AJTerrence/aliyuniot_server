@@ -1,0 +1,19 @@
+{
+  "name": "aliyuniot-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1",
+    "moment": "^2.18.1",
+    "request-promise": "^4.2.1",
+    "bluebird": "^3.5.0",
+    "crypto": "^0.0.3"
+  }
+}
