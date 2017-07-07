@@ -6,7 +6,7 @@ const moment = require('moment')
 //common parameters
 const Format = 'JSON'
 const Version = '2016-05-30'
-const AccessKeyId = 'LTAITFXHVMN2CGUU'
+const AccessKeyId = ''//
 const SignatureMethod = 'HMAC-SHA1'
 const Timestamp = moment().utc().format('YYYY-MM-DDTHH:mm:ss') + 'Z'
 const SignatureVersion = '1.0'
@@ -24,7 +24,7 @@ const regionId = 'RegionId=' + encodeURIComponent(RegionId)
 
 const commonparams = [format,version,accessKeyId,signatureMethod,timestamp,signatureVersion,signatureNonce,regionId]
 //secret
-const AccessKeySecret = 'goW0NKdKAZYoNzJjBpiSsMVYF33UsU&'
+const AccessKeySecret = ''//secret + &
 
 
 const createProduct = function(ctx){
